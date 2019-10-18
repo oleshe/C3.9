@@ -1,0 +1,38 @@
+.contentWrapper {
+    width: 70%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 100px;
+    margin-bottom: 30px;
+    background-color: #202020;
+
+}
+
+.menubutton {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 200px; 
+    height: 50px;
+    background-color: #36752e;
+    text-align: center;
+    vertical-align: middle;
+    color: #202020;
+    padding-top: 10px;
+}
+
+.menubutton > a{
+    color: #202020;
+}
+
+main {
+    min-height: calc(100vh - 240px);
+    padding-bottom: 90px;
+    margin-bottom: 30px;
+    padding: 25px;
+}
